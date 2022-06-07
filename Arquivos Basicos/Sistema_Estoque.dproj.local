@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/07/02 14:36:37.000.538,=C:\Users\Q-Cursos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/02 14:37:54.000.773,C:\Users\Q-Cursos\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2015/07/02 14:37:54.000.773,C:\Users\Q-Cursos\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\UfrmPrincipal.pas</Transaction>
+    <Transaction>2015/07/02 14:38:43.000.378,C:\Users\Q-Cursos\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\Sistema_Estoque.dproj</Transaction>
+    <Transaction>2015/07/02 14:39:22.000.605,=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\Unit2.pas</Transaction>
+    <Transaction>2015/07/02 14:40:13.000.456,C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\Unit2.pas=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\UfrmCadastroProdutos.pas</Transaction>
+    <Transaction>2015/07/02 14:40:13.000.456,C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\Unit2.dfm=C:\Users\Q-Cursos\Desktop\Curso de Delphi\Arquivos\Arquivos\Arquivos Basicos\UfrmCadastroProdutos.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

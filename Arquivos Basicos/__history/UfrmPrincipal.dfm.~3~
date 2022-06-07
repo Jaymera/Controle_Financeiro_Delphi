@@ -1,0 +1,93 @@
+object frmSistemaEstoque: TfrmSistemaEstoque
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de Estoque'
+  ClientHeight = 329
+  ClientWidth = 620
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 89
+    Height = 329
+    TabOrder = 0
+    object Button1: TButton
+      Left = 8
+      Top = 32
+      Width = 65
+      Height = 25
+      Caption = 'Imprimir'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 8
+      Top = 63
+      Width = 65
+      Height = 25
+      Caption = 'Salvar'
+      TabOrder = 1
+    end
+    object btneditar: TButton
+      Left = 8
+      Top = 94
+      Width = 65
+      Height = 25
+      Caption = 'Editar'
+      TabOrder = 2
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 310
+    Width = 620
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 264
+    ExplicitTop = 312
+    ExplicitWidth = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 152
+    Top = 48
+    object Arquivo1: TMenuItem
+      Caption = '&Arquivo'
+      object Salvar1: TMenuItem
+        Caption = 'Salvar'
+      end
+      object Editar1: TMenuItem
+        Caption = 'Editar'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair2: TMenuItem
+        Caption = 'Sair'
+      end
+    end
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Usurios1: TMenuItem
+        Caption = 'Usu'#225'rios'
+      end
+    end
+    object Sair1: TMenuItem
+      Caption = 'Sair'
+    end
+  end
+  object Timer1: TTimer
+    Left = 264
+    Top = 56
+  end
+end

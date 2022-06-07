@@ -1,0 +1,77 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.ComCtrls,
+  Vcl.StdCtrls, Vcl.Imaging.jpeg;
+
+type
+  TfrmSistemaEstoque = class(TForm)
+    MainMenu1: TMainMenu;
+    Arquivo1: TMenuItem;
+    Cadastro1: TMenuItem;
+    Sair1: TMenuItem;
+    Salvar1: TMenuItem;
+    Editar1: TMenuItem;
+    Produtos1: TMenuItem;
+    Usurios1: TMenuItem;
+    N1: TMenuItem;
+    Sair2: TMenuItem;
+    Panel1: TPanel;
+    Button1: TButton;
+    btnsalvar: TButton;
+    btneditar: TButton;
+    StatusBar1: TStatusBar;
+    Timer1: TTimer;
+    Image1: TImage;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+      a : string;
+  end;
+
+var
+  frmSistemaEstoque: TfrmSistemaEstoque;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TfrmSistemaEstoque.Button1Click(Sender: TObject);
+begin
+
+//Área de Impressão
+
+a := 'Mensagem ao Imprimir';
+showmessage(a);
+end;
+
+
+
+procedure TfrmSistemaEstoque.FormCreate(Sender: TObject);
+
+var nota, media : integer;
+
+begin
+
+nota := 80;
+media := 60;
+
+if nota >= media then
+  begin
+  showmessage('Ana foi Aprovada');
+  end
+  else
+  begin
+  showmessage('Ana foi Reprovada');
+  end;
+end;
+
+end.
